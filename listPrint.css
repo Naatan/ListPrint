@@ -1,0 +1,55 @@
+.listprint ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 50px;
+    border: 1px dotted #00E030;
+}
+
+.listprint ul.object > li.hover {
+    background: #D8FFE1;
+}
+
+.listprint ul li.hover ul.object > li {
+    background: #E0FFE7;
+}
+
+.listprint ul.array {
+    border: 1px dotted #8684FF;
+}
+
+.listprint ul.array > li.hover {
+    background: #E8E8FF;
+}
+
+.listprint ul li.hover ul.array > li {
+    background: #EFEFFF;
+}
+
+.listprint li {
+    margin: 0;
+    padding: 2px;
+}
+
+.listprint .toggler {
+    color: #808080;
+}
+
+.listprint .toggler:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.listprint .array > li > .toggler {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.listprint .number {
+    color: #ffa500;
+}
+
+.listprint .string {
+    color: #006600;
+}
+
